@@ -1,0 +1,36 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.rotated {
+    transform: rotate(90deg);
+}
+
+.header-background {
+    background-color: white;
+}
+
+
+.star-header {
+    color: white;
+    text-shadow: 1px 1px 2px #d81515, 0 0 25px blue, 0 0 37px darkblue;
+}
+.star-header:hover {
+    transition: .33s;
+    text-shadow: 1px 1px 2px #2be409, 0 0 25px blue, 0 0 37px lightblue;
+}
+
+.page-background {
+    background-image: url("/static/img/Crabneb.jpg");
+    background-size: cover;
+}
+
+.page-description {
+    background-color: white;
+    height: 100%;
+}
+
+.test-text {
+    text-align: center;
+}
